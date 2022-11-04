@@ -4,7 +4,7 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      Weather App
+      <div className="container">
 
       <form>
         <input type="search" placeholder="Enter a city" className="form-control"/>
@@ -16,7 +16,7 @@ export default function App() {
 <a href="https://github.com/JessiceM/weathertwo-react" target="_blank"> open-sourced on GitHub </a>
  and hosted on Netlify
 </footer>
-      
+      </div>
     </div>
   );
 }
