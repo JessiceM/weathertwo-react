@@ -2,3 +2,11 @@
     background-color: beige;
     border:1px solid #dadde1;
 }
+
+.Weather h4{
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 35px;
+}

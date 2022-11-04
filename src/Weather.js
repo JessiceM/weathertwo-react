@@ -9,16 +9,16 @@ export default function Weather() {
                     <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="Mostly Cloudy" />
                 </div>
                 <div className="col-6">
-                <h1>72° C</h1>
-            <ul>
-                <li>Cloudy Sky</li>
-                <li>Humidity %</li>
-                <li>Wind mph</li>
-            </ul>
-
-</div>
+                    <h1>72° C</h1>
+                    <ul>
+                        <li>Cloudy Sky</li>
+                        <li>Humidity %</li>
+                        <li>Wind mph</li>
+                    </ul>
+                </div>
 
             </div>
+            <div class="d-flex justify-content-center"><h4>Friday, 4 November</h4></div>
             
         </div>
         
