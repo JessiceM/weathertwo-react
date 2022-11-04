@@ -8,8 +8,16 @@ export default function App() {
       <div className="container">
         
         <form>
-        <input type="search" placeholder="Enter a city" className="form-control"/>
-        <input type="submit" value="Search" className="btn btn-primary" />
+          <div className="row">
+            <div className="col-5">
+              <input type="search" placeholder="Enter a city" className="form-control"/>
+            </div>
+            <div className="col-3">
+              <input type="submit" value="🔍" className="btn btn-primary" />
+              <input type="submit" value="📍" className="btn btn-primary" />
+            </div>
+        
+          </div>
         </form>
         <h1>Dallas</h1>
         <Weather />

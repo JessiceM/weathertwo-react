@@ -8,8 +8,8 @@ export default function Weather() {
                 <div className="col-6">
                     <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="Mostly Cloudy" />
                 </div>
-<div className="col-6">
-<h1>72° C</h1>
+                <div className="col-6">
+                <h1>72° C</h1>
             <ul>
                 <li>Cloudy Sky</li>
                 <li>Humidity %</li>
