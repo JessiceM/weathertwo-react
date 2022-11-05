@@ -12,8 +12,8 @@ export default function Weather() {
                     <h1>72° C</h1>
                     <ul>
                         <li>Cloudy Sky</li>
-                        <li>Humidity %</li>
-                        <li>Wind mph</li>
+                        <li>💧Humidity %</li>
+                        <li>💨Wind mph</li>
                     </ul>
                 </div>
 

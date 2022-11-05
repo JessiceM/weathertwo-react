@@ -1,0 +1,11 @@
+.App {
+    border:1px solid #dadde1;
+    background-color: #107cc9;
+    margin: 20px 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.App footer{
+    color: white;
+}

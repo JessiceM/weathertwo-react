@@ -13,8 +13,8 @@ export default function App() {
               <input type="search" placeholder="Enter a city" className="form-control"/>
             </div>
             <div className="col-3">
-              <input type="submit" value="🔍" className="btn btn-primary" />
-              <input type="submit" value="📍" className="btn btn-primary" />
+              <input type="submit" value="🔍" className="btn btn-warning" />
+              <input type="submit" value="📍" className="btn btn-warning" />
             </div>
         
           </div>
