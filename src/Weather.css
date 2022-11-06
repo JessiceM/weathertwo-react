@@ -1,8 +1,8 @@
-.Weather{
-    background-color: beige;
+/*.Weather{
+   background-color: beige;
     
     
-}
+}*/
 
 .Weather h4{
     color: white;
@@ -10,4 +10,26 @@
     border-radius: 25px;
     text-align: center;
     padding: 5px 35px;
+}
+
+.Weather .temperature{
+    font-size: 60px;
+}
+.Weather .condition{
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+
+}
+
+.Weather img{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    padding-bottom: 0;
+}
+
+.Weather li{
+    list-style: none;
 }

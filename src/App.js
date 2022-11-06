@@ -10,8 +10,9 @@ export default function App() {
         <form>
           <div className="row">
             <div className="col-5">
-              <input type="search" placeholder="Enter a city" className="form-control"/>
+              <input type="search" placeholder="Enter a city" className="form-control" autoFocus="on"/>
             </div>
+            {/*autoFocus immediately focuses on search bar */}
             <div className="col-3">
               <input type="submit" value="🔍" className="btn btn-warning" />
               <input type="submit" value="📍" className="btn btn-warning" />
@@ -19,7 +20,7 @@ export default function App() {
         
           </div>
         </form>
-        <h1>Dallas</h1>
+        <h1 className="city">Dallas</h1>
         <Weather />
         <footer>
           This project was coded by<a href="" target="_blank"> Jessica Mendoza </a>  and is 
