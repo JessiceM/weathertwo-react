@@ -13,23 +13,40 @@
 }
 
 .Weather .temperature{
-    font-size: 60px;
+    font-size: 70px;
 }
+
 .Weather .condition{
     font-size: 23px;
     text-align: center;
     position: relative;
-    top: -40px;
+    top: -95px;
+    right: -25px;
 
 }
 
 .Weather img{
-    display: block;
+    float:right;
+    position: relative;
+    top: -40px;
     margin: 0 auto;
-    height: 200px;
+    height: 250px;
     padding-bottom: 0;
 }
 
 .Weather li{
     list-style: none;
+    position: relative;
+    right: 15px;
+    
+}
+
+.Weather h1{
+    position: relative;
+    right: -20px;
+}
+
+.Weather h4{
+    position: relative;
+    top:-40px
 }

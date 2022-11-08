@@ -14,9 +14,14 @@
 }
 
 .App form{
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .App .city{
     font-size: 45px;
+}
+
+.App h1{
+    position: relative;
+    top: 20px;
 }
